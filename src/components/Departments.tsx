@@ -95,10 +95,6 @@ export const Departments = () => {
                 <ModalEns setSelectedDept={setSelectedDept} />
             )}
 
-            {selectedDept?.title === "Аналитика данных" && (
-                <ModalDataAnalytics setSelectedDept={setSelectedDept} />
-            )}
-
             {selectedDept?.title === "Проектная деятельность" && (
                 <ModalProject setSelectedDept={setSelectedDept} />
             )}
